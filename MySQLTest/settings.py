@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'MySQLTest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS' : {
-            'read_default_file' : '/usr/local/mysql-5.6.25-osx10.8-x86_64/my.conf'
-        },
+        'NAME' : 'django_db',
+        'USER' : 'root',
+        'PASSWORD' : '',
     }
 }
 
